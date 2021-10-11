@@ -1,0 +1,420 @@
+body {
+    background-color: #F1F4F5;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #D9DFE1;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+
+footer p{
+    font-size: 14px;
+    line-height: 55px;
+    color: #2d3748;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.form-box {
+    background: #fff;
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #D9DFE1;
+    border-radius: 5px;
+    padding: 50px 0;
+}
+
+.box-left, .box-right{
+    padding: 0 50px;
+}
+
+.box-left h1 {
+    font-size: 45px;
+    line-height: 55px;
+    color: #2d3748;
+    font-weight: 700;
+    margin: 0;
+    max-width: 300px;
+}
+
+.box-left h2{
+    font-size: 30px;
+    line-height: 55px;
+    color: #3a54a3;
+    font-weight: 700;
+    margin: 0;
+}
+
+.box-left h2 span.number{
+    font-size: 25px;
+    line-height: 55px;
+    color: #f79824;
+    font-weight: 400;
+    
+}
+
+.row {
+    display: flex;
+}
+
+
+.row .column.left{
+    width: 49%;
+}
+
+.row .column.right{
+    width: 51%;
+}
+
+.box-right {
+    border-left: 1px solid #D9DFE1;
+}
+
+.inline-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline-input .input{
+    width: 47%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.input label {
+    font-size: 16px;
+    line-height: 30px;
+    color: #2d3748;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.input input, .input select {
+    border: 1px solid #ddd;
+    min-height: 35px;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+
+.input small.input-desc{
+    font-size: 12px;
+    color: #2d3748;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.field-wraper {
+    position: relative;
+}
+
+span.status {
+    font-size: 10px;
+}
+
+.input-has-status input {
+    width: 68%;
+    margin-right: 8px;
+}
+
+.password-requirements {
+    margin-top: 10px;
+}
+
+.password-requirements p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #2d3748;
+    font-weight: 400;
+    margin: 0;
+}
+.password-requirements p.title{
+    text-decoration: underline;
+}
+
+.password-requirements p.validation-passed{
+    color: #1c7132;
+}
+
+.password-requirements p.validation-failed{
+    color: #EC0202;
+}
+
+.input-has-status .status{
+    color: #EC0202;
+}
+
+.input-has-status .success{
+    color: #1c7132;
+}
+
+button.submit-button {
+    margin-left: auto;
+}
+
+.submit-form {
+    display: flex;
+    margin-top: 30px;
+}
+
+button.submit-button {
+    background: #F79824;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+button.step3-disabled-button {
+    margin: auto;
+    background: #aaaaaa;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+button.disabled-button {
+    margin-left: auto;
+    background: #aaaaaa;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+button.submit-button:hover {
+    background: #3A54A3;
+}
+
+@media(max-width: 1220px){
+    header{
+        padding: 10px 20px;
+    }
+    footer{
+        padding: 0 20px;
+    }
+}
+
+@media(max-width: 1100px){
+    .form-box {
+        margin: 50px;
+    }
+}
+
+@media(max-width: 900px){
+    .row {
+        flex-direction: column;
+    }
+
+    .box-left {
+        margin-bottom: 50px;
+    }
+
+    .row .column.left{
+        width: 100%;
+    }
+    
+    .row .column.right{
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .form-box {
+        margin: 20px;
+    }
+}
+
+@media(max-width: 442px){
+    .box-left, .box-right {
+        padding: 20px;
+    }
+    .form-box {
+        padding: 20px 0;
+    }
+    .box-left {
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 382px){
+    .box-left h1 {
+        font-size: 40px;
+    }
+
+    .box-left h2 {
+        font-size: 25px;
+    }
+
+    .box-left h2 span.number {
+        font-size: 20px;
+    }
+}
+
+/* Apply promo */
+
+.promo-code input#promo {
+    width: 30%;
+}
+
+.promo-code button.apply-promo-button {
+    width: 30%;
+}
+
+.promo-code span.status.success {
+    width: 30%;
+    padding-left: 10px;
+}
+
+button.apply-promo-button {
+    border: 0;
+    padding: 11px;
+    color: #fff;
+    background: #3A54A3;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+button.apply-promo-button:hover{
+    background: #F79824;
+}
+
+.promo-code .status.success{
+    font-weight: 600;
+}
+
+.form-notice{
+    background: #F6E4CD;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2d3748;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.form-notice {
+    background: #F6E4CD;
+    font-size: 12px;
+    line-height: 22px;
+    color: #2d3748;
+    font-weight: 500;
+    font-style: italic;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-notice p{
+    margin: 0;
+}
+
+.billing-information p.title{
+    font-size: 16px;
+    line-height: 55px;
+    color: #2d3748;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.billing-information p.title:before {
+    content: '';
+    width: 26%;
+    height: 1px;
+    background: #DADFE2;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+}
+
+.billing-information p.title:after {
+    content: '';
+    width: 26%;
+    height: 1px;
+    background: #DADFE2;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.card-expiration {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.expiration-fields {
+    display: flex;
+}
+
+.expiration-fields input {
+    width: 50px;
+}
+
+input#expirationDate {
+    margin-right: 10px;
+}
+
+label.checkbox-inline {
+    display: flex;
+}
+
+span.signature-text {
+    padding-left: 5px;
+}
+
+.signature {
+    margin-top: 10px;
+}
+
+@media(max-width: 500px){
+    .card-expiration {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+button#start-subscription {
+    margin: 0 auto;
+    background: #3A936A;
+}
+
+button#start-subscription:hover{
+    background: #F79824;
+}

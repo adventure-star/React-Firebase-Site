@@ -1,0 +1,112 @@
+.ReactCollapse--collapse {
+    transition: height 500ms;
+  }
+.dashboard__menu {
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.dashboard__menu::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+.arrow {
+  position: absolute;
+  right: 10px;
+  top: 45%;
+}
+.accordion-toggle {
+  margin-bottom: 0;
+}
+.toggle-icon {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.rotate-180deg {
+  transform: rotate(180deg);
+}
+.menu__wrapper ul li.dropdown > a {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+.box__wrapper_notification {
+	box-shadow: 0 2px 19px 1px rgba(0, 0, 0, 0.04);
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+.box_notification_inner {
+	padding: 20px 21px 10px 21px;
+}
+.notification_footer {
+  padding: 0 0 5px 0;
+}
+.notification_brand {
+  padding: 6px 30px;
+	color:#fff;
+  font-size: 14px;
+  border-radius: 16px 0 0 16px;
+  font-weight: 700;
+  letter-spacing: 0.16px;
+}
+.brand_brown {
+  background:#f7991f;
+}
+.brand_blue {
+  background: #5e4ac2;
+}
+.notification_brand_wrapper {
+  text-align: right;
+}
+.form-control-after {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  z-index: 20;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.selection-none {
+  -moz-user-select: none;
+  user-select: none;
+}
+.add-segment-filter-description {
+  color: #ababab;
+  font-weight: 500;
+  max-width: 520px;
+  width: 100%;
+  height: 48px;
+  border-radius: 24px;
+  border: 1px solid #f8f8f8;
+  -webkit-appearance: none;
+  padding: 17px;
+  margin: auto;
+}
+.panel-minimize-questiontype {
+  color:#fff; 
+  padding:4px 10px; 
+  background: #f79824; 
+  font-size:14px; 
+  border-radius:4px;
+  text-transform: uppercase;
+}
+.box-highlight {
+  box-shadow: 0 0 0 2px#f3c04f;
+}
+.asset-pic audio {
+	max-width: 100%;
+}
+.asset-pic video {
+	max-width: 100%;
+}

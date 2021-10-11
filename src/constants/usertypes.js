@@ -1,0 +1,12 @@
+export const USERTYPE = {
+
+    DEVELOPER: 1,
+    SUPERADMIN: 2,
+    PARTNER: 3,
+    CONTRIBUTOR: 4,
+    CUSTOMER: 5,
+    EDITOR: 6,
+    COLLABORATOR: 7,
+    APPUSER: 8,
+
+}
